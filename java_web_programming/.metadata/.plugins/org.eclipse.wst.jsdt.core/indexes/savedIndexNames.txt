@@ -1,6 +1,0 @@
-INDEX VERSION 1.4+/Users/david.kittle/development/java_web_programming/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-297470816.index
-2529705303.index
-3116795188.index
-3671546282.index
-2038256029.index

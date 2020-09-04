@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+/Users/david.kittle/Development/workspace/java/BankApplication/.metadata/.plugins/org.eclipse.jdt.core
-1044032057.index
-4154239352.index

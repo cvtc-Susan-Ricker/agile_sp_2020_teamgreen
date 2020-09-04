@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;BankApplication&apos; to &apos;BankApplicationInstanceOf_dkittle&apos;" description="Rename resource &apos;BankApplication&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BankApplication" name="BankApplicationInstanceOf_dkittle" stamp="1569980649216" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;BankApplication&apos;" deleteContents="false" description="Delete resource &apos;BankApplication&apos;" element1="/BankApplication" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1570053623481"/>
-</session>

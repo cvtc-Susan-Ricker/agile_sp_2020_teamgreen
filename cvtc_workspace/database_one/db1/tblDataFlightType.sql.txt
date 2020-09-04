@@ -1,3 +1,0 @@
-INSERT INTO `droneportation`.`FlightType` (`TypeID`, `Desc`) VALUES ('1', 'Passenger');
-INSERT INTO `droneportation`.`FlightType` (`TypeID`, `Desc`) VALUES ('2', 'Package');
-INSERT INTO `droneportation`.`FlightType` (`TypeID`, `Desc`) VALUES ('3', 'Mixed');

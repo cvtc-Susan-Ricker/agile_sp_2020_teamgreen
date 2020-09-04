@@ -1,3 +1,0 @@
-INSERT INTO `droneportation`.`Category` (`CategoryID`, `Description`) VALUES ('1', 'Passenger Only');
-INSERT INTO `droneportation`.`Category` (`CategoryID`, `Description`) VALUES ('2', 'Package Only');
-INSERT INTO `droneportation`.`Category` (`CategoryID`, `Description`) VALUES ('3', 'Passenger and Package');

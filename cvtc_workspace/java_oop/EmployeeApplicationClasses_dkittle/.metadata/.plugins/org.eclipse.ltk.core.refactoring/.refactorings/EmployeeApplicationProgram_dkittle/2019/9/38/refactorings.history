@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;EmployeeApplicationProgram_dkittle&apos;&#x0A;- Original project: &apos;EmployeeApplicationProgram_dkittle&apos;&#x0A;- Original element: &apos;edu.cvtc.java.EmplopyeeApplicationProgram.java&apos;" description="Delete element" element1="/src&lt;edu.cvtc.java{EmplopyeeApplicationProgram.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1568849214190" subPackages="false" version="1.0"/>
-</session>
