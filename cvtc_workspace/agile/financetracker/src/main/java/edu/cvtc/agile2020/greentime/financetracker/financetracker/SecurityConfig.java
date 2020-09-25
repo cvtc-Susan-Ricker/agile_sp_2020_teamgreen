@@ -32,20 +32,20 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
 
-                .authorizeRequests()
-                .anyRequest().authenticated()
-                .and()
-                .formLogin()
-                .loginPage("/login.html")
-                .defaultSuccessUrl("/index", true)
-                .permitAll();
-
 //                .authorizeRequests()
-//                .antMatchers("/login/html").permitAll()
-//                .antMatchers("/profile/**").authenticated()
-//                .antMatchers("/admin/**").authenticated()
-//                .antMatchers("/management/**").authenticated()
-//                .and().httpBasic();
+//                .anyRequest().authenticated()
+//                .and()
+//                .formLogin()
+//                .loginPage("/login.html")
+//                .defaultSuccessUrl("/index", true)
+//                .permitAll();
+
+                .authorizeRequests()
+                .antMatchers("/login/html").permitAll()
+                .antMatchers("/profile/**").authenticated()
+                .antMatchers("/admin/**").authenticated()
+                .antMatchers("/management/**").authenticated()
+                .and().httpBasic();
 
     }
 
