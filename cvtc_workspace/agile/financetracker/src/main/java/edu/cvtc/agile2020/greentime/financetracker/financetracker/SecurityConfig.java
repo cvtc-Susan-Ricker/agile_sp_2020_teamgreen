@@ -15,9 +15,16 @@ import javax.sql.DataSource;
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
+    private AuthenticationSuccessHandler authenticationSuccessHandler;
+
     // define connection to sql
     @Autowired
     DataSource dataSource;
+
+    @Autowired
+    public SecurityConfig(AuthenticationSuccessHandler authenticationSuccessHandler) {
+        this.authenticationSuccessHandler = authenticationSuccessHandler;
+    }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
@@ -41,11 +48,16 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //                .permitAll();
 
                 .authorizeRequests()
-                .antMatchers("/login/html").permitAll()
+                .antMatchers("/login.html").permitAll()
                 .antMatchers("/profile/**").authenticated()
                 .antMatchers("/admin/**").authenticated()
                 .antMatchers("/management/**").authenticated()
-                .and().httpBasic();
+                .and()
+                .formLogin()
+                .loginPage("/login.html")
+                .successHandler(authenticationSuccessHandler)
+                .permitAll();
+
 
     }
 
