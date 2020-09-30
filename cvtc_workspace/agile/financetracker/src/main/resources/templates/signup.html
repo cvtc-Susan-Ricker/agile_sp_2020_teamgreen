@@ -1,10 +1,10 @@
-
 <div class="grid">
     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
           xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
-
+    <head>
+        <link th:href="@{~/styles.css}" rel="stylesheet">
+    </head>
     <form th:action="@{/login.html}" method="post" class="form login">
-        <link th:href="@{~/messageBox.css}" rel="stylesheet">
 
         <br/>
         <div class="form__image">
