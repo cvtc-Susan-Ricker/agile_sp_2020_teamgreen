@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping(value="/signup", method = RequestMethod.POST)
+@RequestMapping(value="/", method = RequestMethod.POST)
 public class SignUpController {
 
-    @GetMapping("signup")
+    @GetMapping("/signup")
     public String logon(){
         return "signup";
     }
