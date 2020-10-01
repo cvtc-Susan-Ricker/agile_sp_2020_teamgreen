@@ -1,10 +1,10 @@
-<div class="grid">
-    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
           xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
     <head>
         <link th:href="@{~/styles.css}" rel="stylesheet">
     </head>
-    <form th:action="@{/login.html}" method="post" class="form login">
+          <div class="grid">
+    <form action="/addUserSubmit" method="get" class="form login">
 
         <br/>
         <div class="form__image">
@@ -24,9 +24,9 @@
         <script>
             var input = document.getElementById("signUp__password");
             var letter = document.getElementById("letter");
-            var captial = document.getElementById("capital");
+            var capital = document.getElementById("capital");
             var number = document.getElementById("number");
-            var length = document.getElementById("legnth");
+            var length = document.getElementById("length");
             
             // Display message when password field is clicked
             input.onfocus = function(){
@@ -96,4 +96,5 @@
     </div>
 
 
-</div>
+    </div>
+</html>
